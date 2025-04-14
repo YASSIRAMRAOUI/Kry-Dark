@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/property_images_pager"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        app:tabBackground="@drawable/tab_selector"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/property_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beautiful apartment with city view"
+            android:textColor="@color/text_color_primary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/property_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="$150,000"
+            android:textColor="@color/primary_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/property_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/ic_location"
+            android:drawablePadding="4dp"
+            android:text="New York, USA"
+            android:textColor="@color/text_color_secondary"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/property_size"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_size"
+                android:drawablePadding="4dp"
+                android:text="120 m²"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/property_bedrooms"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_bedroom"
+                android:drawablePadding="4dp"
+                android:text="3 bedrooms"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/property_bathrooms"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_bathroom"
+                android:drawablePadding="4dp"
+                android:text="2 bathrooms"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Description"
+            android:textColor="@color/text_color_primary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/property_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="This is a beautiful apartment with stunning city views..."
+            android:textColor="@color/text_color_secondary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Amenities"
+            android:textColor="@color/text_color_primary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/amenities_chip_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btn_reserve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rounded_button"
+            android:text="Reserve Property"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

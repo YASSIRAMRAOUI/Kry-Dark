@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "894237873164",
+    "project_id": "krydark-da78b",
+    "storage_bucket": "krydark-da78b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894237873164:android:28e099f6c8379642424a29",
+        "android_client_info": {
+          "package_name": "com.dev.krydark"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa-2cMvIfah2fb-U8gwW6JakK0V22IcyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

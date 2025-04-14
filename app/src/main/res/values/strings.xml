@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KryDarK</string>
+
+    <!-- Selection Screen -->
+    <string name="krydark">KryDarK</string>
+    <string name="welcome_to_krydark">Welcome to KryDarK</string>
+    <string name="property_management_made_easy">Property Management Made Easy</string>
+    <string name="i_am_a">I am a...</string>
+    <string name="client">Client</string>
+    <string name="agency">Agency</string>
+    <string name="already_have_account">Already have an account? Log in</string>
+    <string name="already_have_an_account_log_in">Already have an account? Log in</string>
+
+    <!-- Login Screen -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="log_in_to_your_account">Log in to your account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_in">LOG IN</string>
+    <string name="don_t_have_an_account_create_one">Don\'t have an account? Create one</string>
+
+    <!-- Registration Common -->
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="country">Country</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">REGISTER</string>
+
+    <!-- User Registration -->
+    <string name="create_client_account">Create Client Account</string>
+    <string name="fill_details_to_get_started">Fill in your details to get started</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="address_information">Address Information</string>
+    <string name="security">Security</string>
+
+    <!-- Agency Registration -->
+    <string name="create_agency_account">Create Agency Account</string>
+    <string name="register_your_agency">Register your agency to start listing properties</string>
+    <string name="agency_information">Agency Information</string>
+    <string name="agency_name">Agency Name</string>
+    <string name="registration_number">Business Registration Number</string>
+    <string name="website">Website URL (Optional)</string>
+    <string name="agency_description">Agency Description</string>
+    <string name="license_information">License Information</string>
+    <string name="upload_license">UPLOAD LICENSE DOCUMENT</string>
+    <string name="register_agency">REGISTER AGENCY</string>
+
+    <!-- Forgot Password -->
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_email_for_reset">Enter your email to receive a password reset link</string>
+    <string name="send_reset_link">SEND RESET LINK</string>
+    <string name="back_to_login">Back to Login</string>
+
+    <!-- Menu Items -->
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="app_logo_tap_to_go_to_home_screen">App logo, tap to go to home screen</string>
+    <string name="no_reservations_yet">No reservations yet</string>
+    <string name="no_favorite_properties_yet">No favorite properties yet</string>
+    <string name="hello_i_m_interested_in_your_property_is_it_still_available">Hello, I\'m interested in your property. Is it still available?</string>
+    <string name="add_new_property">Add New Property</string>
+    <string name="delete_reservation">Delete reservation</string>
+    <string name="morocco_rabat">Morocco, Rabat</string>
+    <string name="beautiful_apartment_with_city_view">Beautiful apartment with city view</string>
+    <string name="property_image">Property image</string>
+    <string name="message">Message</string>
+    <string name="call">Call</string>
+    <string name="pending">Pending</string>
+</resources>
